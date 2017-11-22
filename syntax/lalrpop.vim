@@ -60,7 +60,7 @@ syn region lalrpopAttribute start="#!\?\[" end="\]" contains=rustString,rustDeri
 hi def link lalrpopIdentifierContained lalrpopIdentifier
 hi def link lalrpopUse lalrpopKeyword
 hi def link lalrpopPub lalrpopKeyword
-" hi def link lalrpopKeyword Keyword
+hi def link lalrpopKeyword Keyword
 hi def link lalrpopOperator Operator
 hi def link lalrpopStorage StorageClass
 hi def link lalrpopSigil StorageClass
